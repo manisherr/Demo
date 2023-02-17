@@ -1,0 +1,19 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".DatabaseUsers"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:background="@drawable/rcbackground"
+        android:text="User Record"
+        android:layout_height="wrap_content"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/rc_user"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
